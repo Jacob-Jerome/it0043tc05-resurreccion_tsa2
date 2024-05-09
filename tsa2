@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <center>
+  <form action="#" name="pokemonselection" method="post">
+  <label for="nationaldex"> National Dex:</label>
+  <input type="number" name="nationaldex" size = "30" min = "0" id="nationaldex">
+  <br>
+  <br>
+  <label for="generation"> Generation 1:</label>
+  <input type="radio" name="generation" id="generation1">
+  <label for="generation"> Generation 2:</label>
+  <input type="radio" name="generation" id="generation2">
+  <label for="generation"> Generation 3:</label>
+  <input type="radio" name="generation" id="generation3">
+  <label for="generation"> Generation 4:</label>
+  <input type="radio" name="generation" id="generation4">
+  <label for="generation"> Generation 5:</label>
+  <input type="radio" name="generation" id="generation5">
+  <label for="generation"> Generation 6:</label>
+  <input type="radio" name="generation" id="generation6">
+  <label for="generation"> Generation 7:</label>
+  <input type="radio" name="generation" id="generation7">
+  <label for="generation"> Generation 8:</label>
+  <input type="radio" name="generation" id="generation8">
+  <label for="generation"> Generation 9:</label>
+  <input type="radio" name="generation" id="generation9">
+  <br>
+  <label for="pokemonname"> Pokemon Name:</label>
+  <input type="text" name="pokemonname" id="pokemonname">
+  <br>
+  <label for="image">Image:</label>
+  <input type="file" id="image" name="image" accept="image/png, image/jpeg" />
+  <br>
+  <br>
+  <label for="type1"> Type 1:</label>
+  <input list="datalist" name="type1" id="type1 ">
+ 
+  <label for="type2"> Type 2:</label>
+  <input list="datalist" name="type2" id="Type 2 "> 
+  <datalist id="datalist">
+    <option value="Fire">
+    <option value="Water">
+    <option value="Poison">
+    <option value="Electric">
+    <option value="Grass">
+    <option value="Fighting">
+    <option value="Fly">
+ <option value="Dark">
+        <option value="Rock">
+          <option value="Grass">      
+    
+   </datalist>
+   <br>
+   <br>
+   <label for="Evolvesfrom"> Evolves from:</label>
+   <input type="Text" name="Evolvesfrom" id="Evolvesfrom">
+
+   <label for="Evolvesto"> Evolves to:</label>
+   <input type="Text" name="Evolvesto" id="Evolvesto">
+   <br>
+   <br>
+
+   <label for="nickname"> Nickname:</label>
+   <input type="Text" name="nickname" id="nickname">
+   <br>
+  <br>
+
+   <label for="birthday"> Birthday:</label>
+   <input type="datetime-local" name="birthday" id="birthday">
+   <br>
+   <label for="submit">  </label>
+   <input type="submit" name="submit" id="submit">
+   <br>
+  
+  </center>
+
+  </form>    
+ <br>
+ <br>
+  <center>
+ <table border="1">
+<tr >
+<th>National Dex</th>
+<th>Generation</th>  
+<th>Pokemon Name</th>
+<th>Image</th>
+<th>Type 1 </th>
+<th>Type 2 </th>
+<th>Evolves from</th>
+<th>Evolves to </th>
+<th>Nickname</th>
+<th>Birthday</th>
+</tr>
+<tr align="center">
+  <td>1</td>
+  <td>Generation 1</td>
+  <td>Jacob</td>
+  <td><img height="135" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/438267623_1739700446561794_3468440589797119456_n.jpg?stp=dst-jpg_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEwmI4Ccd9nKaaE2AFILaTbBS6IHrYaELAFLogethoQsI0fc7g0mbU8Pc1mE4QJzpk_cNeADqoxhVvZTDmybIwt&_nc_ohc=WRi1rOduzgUQ7kNvgGAlBe9&_nc_oc=AdhxeHrNDSk0sbuDLJXUlKWjFU54r6ASwmJu-39MN8Bn-tm5BX_gVELjnFdj_TqQfu76-WHmjsRgYgarCZeYMDxB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEzik1xtIgpSlSnbTKwN0wmy4YxmsufSCbrlrJeoCTv2A&oe=6663ABE5" width="150"</td>
+  <td bgcolor="Violet"><font color="white"> Dark </td>
+  <td bgcolor="brown"><font color="white"> Fighting </td>
+  <td>Engot</td>
+  <td>Super Engot</td>
+  <td>JJ</td>
+  <td>01-06-2005</td>
+</tr>
+<tr align="center">
+<td>0004</td>
+  <td>Generation 1</td>
+  <td>Charmander</td>
+  <td><img height="135" src="https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/105px-0004Charmander.png" width="150"</td>
+  <td  colspan="2" bgcolor="Fire"><font color="white"> Fire </td>
+  <td>Charmander</td>
+  <td>Charmeleon</td>
+  <td>Lighter</td>
+  <td>02-03-2003</td>
+</tr>
+<tr align = "center">
+  <center>
+  <td>0016</td>
+  <td>Generation 1</td>
+  <td>Pidgey</td>
+  <td><img height="135" src="https://archives.bulbagarden.net/media/upload/thumb/0/0c/0016Pidgey.png/105px-0016Pidgey.png" width="150"></td>
+  <td bgcolor= "#808080"> <font color ="white"> Normal</td> 
+  <td bgcolor= "Sky Blue"> <font color ="white">Flying</td>
+  <td>Pidgeotto</td>
+  <td>Pidgeot</td>
+  <td>Chicken Nuggets</td>
+  <td>05-03-2003</td>
+</tr> 
+<tr align = "center">
+  <center>
+  <td>0020</td>
+  <td>Generation 1</td>
+  <td>Raticate</td>
+  <td><img height="135" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-x-y-version/c/c5/Raticate.jpg" width="150"></td>
+  <td colspan="2" bgcolor= "#808080"> <font color ="white"> Normal</td> 
+  <td>Rattata</td>
+  <td>Alolan Rattata</td>
+  <td>Mikey Mouse</td>
+  <td> 09-05-2005</td>
+</tr>
+<tr align = "center">
+  <center>
+  <td>0022</td>
+  <td>Generation 3</td>
+  <td>Fearow</td>
+  <td><img height="135" src="https://img.pokemondb.net/artwork/large/fearow.jpg" width="150"></td>
+  <td bgcolor= "#808080"> <font color ="white"> Normal</td> 
+  <td bgcolor= "Sky Blue"> <font color ="white">Flying</td>
+  <td>Spearow</td>
+  <td>Mega Spearow</td>
+  <td>Kalapanget</td>
+  <td>09-07-2001</td>
+</tr> 
+<tr align = "center">
+  <center>
+  <td>0025</td>
+  <td>Generation 1</td>
+  <td>Pikachu</td>
+  <td><img height="135" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-switch/8/89/Pikachu.jpg" width="150"></td>
+  <td colspan="2" bgcolor= "#FFDB58"> <font color ="white"> Electric</td> 
+  <td>Pichu</td>
+  <td>Raichu</td>
+  <td>Meralco</td>
+  <td>10-02-2004</td>
+</tr>
+<tr align = "center">
+  <center>
+  <td>0027</td>
+  <td>Generation 1</td>
+  <td>Sandshrew</td>
+  <td><img height="135" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-x-y-version/2/2f/Sandshrew.jpg" width="150"></td>
+  <td colspan="2" bgcolor= "#967969"> <font color ="white"> Ground</td> 
+  <td>Sandslash</td>
+  <td>Alolan Sandslash</td>
+  <td>Dolomite</td>
+  <td>08-04-2004</td>
+</tr>
+<tr align = "center">
+  <center>
+  <td>0028</td>
+  <td>Generation 1</td>
+  <td>Sandslash</td>
+  <td><img height="135" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-diamond-version/4/42/Sandslash.jpg" width="150"></td>
+  <td colspan="2" bgcolor= "#967969"> <font color ="white"> Ground</td> 
+  <td>Sandshrew</td>
+  <td>Sandrill</td>
+  <td>Toothpick</td>
+  <td>07-04-2004</td>
+</tr>
+
+<tr align = "center">
+  <center>
+  <td>0012</td>
+  <td>Generation 1</td>
+  <td>Butterfree</td>
+  <td><img height="135" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-sun-pokemon-moon/d/d3/Butterfree.jpg" width="150"></td>
+  <td bgcolor= "#8A9A5B"> <font color ="white"> Bug</td> 
+  <td bgcolor= "Sky Blue"> <font color ="white"> Flying</td>
+  <td>Metapod</td>
+  <td>Gigantamax Butterfree</td>
+  <td>Fly High Butterfly</td>
+  <td>06-05-2000</td>
+</tr>
+
+ </table>
+</center>
+    
+</body>
+</html>
